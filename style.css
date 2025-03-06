@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*
+{
+    font-family: Poppins, sans-serif;
+}
+.navbar
+{
+    background-color: #C5BAFF;
+    font-size: 1.3rem;
+}
+.navbar-brand
+{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.btn
+{
+    background-color: #8174A0;
+    color: white;
+    border: 1px solid black;
+}
+.btn:hover
+{
+    background-color: #C5BAFF;
+    color: black;
+    transform: scale(1.1);
+}
+.card
+{
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+}
+
+.page-link
+{
+    color: black;
+    border: 1px solid black;
+}
+.footer
+{
+    text-align: center;
+    background-color: #C5BAFF;
+    height: 5rem;
+    padding: 1rem;
+}
+.nav-item:hover{
+    transform: scale(1.1);
+    margin-left: 2rem;
+    font-weight: 700;
+}
+.nav-item
+{
+    color: black;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+.Read
+{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.container
+{
+    position: relative;
+}
